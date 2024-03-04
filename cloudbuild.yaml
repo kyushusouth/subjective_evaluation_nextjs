@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/subjective-evaluation-nextjs/my-docker-repo/myimage-from-git', '.']
+images:
+  - 'us-central1-docker.pkg.dev/subjective-evaluation-nextjs/my-docker-repo/myimage-from-git'
